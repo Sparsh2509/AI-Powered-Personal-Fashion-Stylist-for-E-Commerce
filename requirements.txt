@@ -1,0 +1,43 @@
+# ============================================================
+# AI-Powered Fashion Stylist - Python Dependencies
+# ============================================================
+
+# Google Gemini AI (Vision + LLM + Embeddings) — new unified SDK
+google-genai>=0.8.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# API Framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Data validation
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# HTTP utilities
+python-multipart>=0.0.9    # For file uploads in FastAPI
+httpx>=0.27.0
+
+# Image processing
+Pillow>=10.3.0
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Data handling
+numpy>=1.26.0
+
+# Streamlit UI (for testing)
+streamlit>=1.35.0
+plotly>=5.22.0
+
+# Jupyter (for prompt engineering experiments)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0              # For FastAPI test client
