@@ -2,7 +2,7 @@
 .env
 
 # ChromaDB local storage
-chroma_db/
+# chroma_db/
 
 # Python cache
 __pycache__/
